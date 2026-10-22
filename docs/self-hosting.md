@@ -31,7 +31,7 @@ On a bare Linux server, the same docs list a one-line bootstrap that installs Do
 
 ## Requirements a self-hosted Kortix adds
 
-Beyond Dify's list, a self-hosted Kortix needs A or AAAA records for the domain and its `api` subdomain before the first start, a wildcard record for sandbox previews, and a sandbox provider key for Daytona, Platinum, or E2B. Sessions run on that provider, not on the server, and the sandbox calls back to the instance's public API URL, so the host needs a public address. You add your model provider key in the web app after the first sign-in, and your own keys stay yours. For an evaluation run with no domain, the documented tunnel mode starts the stack behind a Cloudflare tunnel:
+Beyond Dify's list, a self-hosted Kortix needs A or AAAA records for the domain and its `api` subdomain before the first start, a wildcard record for sandbox previews, and a sandbox provider key for Platinum or the legacy Daytona fallback. Sessions run on that provider, not on the server, and the sandbox calls back to the instance's public API URL, so the host needs a public address. You add your model provider key in the web app after the first sign-in, and your own keys stay yours. For an evaluation run with no domain, the documented tunnel mode starts the stack behind a Cloudflare tunnel:
 
 ```sh
 kortix self-host init --tunnel cloudflare
