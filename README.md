@@ -1,6 +1,6 @@
-# Dify alternative: Kortix, the open source AI Operating System you own
+# Dify alternative: Kortix, the open source CompanyOS you own
 
-Kortix is open source. It is the open-source AI Operating System, and it is the Dify alternative for a team that wants a workforce of agents rather than one app on a canvas. Your agents, their skills, your company memory, and every connector live in one git repo you own, and every session runs on its own cloud computer.
+Kortix is open source. It is the open-source CompanyOS, and it is the Dify alternative for a team that wants a workforce of agents rather than one app on a canvas. Your agents, their skills, your company memory, and every connector live in one git repo you own, and every session runs on its own cloud computer.
 
 This repository compares Kortix with Dify, n8n, Langflow, and Flowise. Every fact about a rival comes from that project's own page or repository, linked in the pages below.
 
@@ -8,7 +8,7 @@ This repository compares Kortix with Dify, n8n, Langflow, and Flowise. Every fac
 
 | Tool | What it is | Open source | Where it runs |
 | --- | --- | --- | --- |
-| Kortix | The open-source AI Operating System. | Yes, and self-host is free. | Kortix Cloud, your VPC, or on-prem. |
+| Kortix | The open-source CompanyOS. | Yes, and self-host is free. | Kortix Cloud, your VPC, or on-prem. |
 | Dify | An LLM app platform: canvas, RAG, and agents. | Yes, self-host the Community Edition. | Dify Cloud, a VPC, or self-hosted. |
 | n8n | A workflow automation canvas with code under it. | Source on GitHub; self-host with Docker. | n8n Cloud or your own infrastructure. |
 | Langflow | A low-code builder for agents and RAG apps. | Yes, self-host it or use its free cloud. | A free cloud or your own deployment. |
